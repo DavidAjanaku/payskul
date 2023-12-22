@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.wave-section {
+  position: relative;
+  overflow: hidden;
+}
+
+.wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 70px; /* Adjust the height of the wave */
+  background-color: white; /* Set the background color of the wave */
+  clip-path: polygon(0% 100%, 100% 75%, 100% 100%, 0% 100%);
+}
+/* Add this to your stylesheet */
+.testimonial-slider {
+  position: relative;
+  overflow: hidden;
+}
+
+.slider-container {
+  display: flex;
+  transition: transform 0.5s ease; /* Add a transition for smooth sliding */
+}
+
+.slide {
+  flex: 0 0 100%; /* Ensure each slide takes the full width */
+}
+
+.dots-container {
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+  margin-top: 40px;
+  padding-bottom: 10px;
+  
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dot.active {
+  background-color: #b800cc;
+}
+
+

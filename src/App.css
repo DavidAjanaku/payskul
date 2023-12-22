@@ -1,0 +1,22 @@
+@import url('https://fonts.cdnfonts.com/css/geometria');
+body {
+    font-family: 'Geometria', sans-serif; /* Set 'Geometria' as the default font with a fallback to sans-serif */
+}
+
+.example {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+
+@keyframes slideIn {
+    0% {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
