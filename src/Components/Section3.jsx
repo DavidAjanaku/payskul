@@ -28,13 +28,13 @@ export default function Section3() {
           }`}
         >
           <div className="second-headline font-bold text-2xl">FEATURES</div>
-          <div className="subheading mt-10 text-base font-bold">
+          {/* <div className="subheading mt-10 text-base font-bold">
             Most loan apps are designed for personal or business loans.
             <br />
             Payskul is designed for everyone who is searching for a loan
             <br />
             to enable them cross the finish line in their academic journey.
-          </div>
+          </div> */}
         </div>
 
         <div
@@ -57,9 +57,9 @@ export default function Section3() {
                 : "translate-y-[150px] opacity-0"
             }`}
           >
-            <div className="flex flex-wrap gap-20 md:p-5   justify-center pt-36">
-              <div className={`content-row flex flex-col md:w-[20%] mb-10  `}>
-                <div className="headline flex items-center justify-center space-x-3">
+            <div className="flex flex-wrap  md:p-5 gap-3 items-center    justify-center pt-36">
+              <div className={`content-row flex flex-col md:w-[18%] mb-10  `}>
+                <div className="headline flex items-center text-left space-x-3">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="42"
@@ -215,7 +215,7 @@ export default function Section3() {
 
                   <div className="title font-bold text-2xl">BukPay</div>
                 </div>
-                <div className="paragraph mt-5 font-medium text-center">
+                <div className="paragraph mt-5 font-normal text-[16px] text-left">
                   <p>
                     Books and other school items can be purchased via this
                     means.{" "}
@@ -223,8 +223,8 @@ export default function Section3() {
                 </div>
               </div>
 
-              <div className={`content-row flex flex-col md:w-[20%] mb-10  `}>
-                <div className="headline flex items-center justify-center space-x-3">
+              <div className={`content-row flex flex-col md:w-[18%] mb-10  `}>
+                <div className="headline flex items-center text-left space-x-3">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="65"
@@ -312,13 +312,13 @@ export default function Section3() {
 
                   <div className="title font-bold text-2xl">FlexiPay</div>
                 </div>
-                <div className="paragraph mt-5 font-medium text-center">
+                <div className="paragraph mt-5 font-normal text-left text-[16px]">
                   Students can use this feature to pay bit by bit.
                 </div>
               </div>
              
-              <div className={`content-row flex flex-col  md:w-[20%] mb-10 `}>
-        <div className="headline flex items-center justify-center space-x-3">
+              <div className={`content-row flex flex-col  md:w-[18%] mb-10 `}>
+        <div className="headline flex items-center text-left space-x-3">
         <svg xmlns="http://www.w3.org/2000/svg" width="38" height="49" viewBox="0 0 38 49" fill="none">
   <path d="M26.1841 14.0733L26.0469 13.945L20.3715 9.48449C20.4307 9.36542 20.4743 9.23414 20.4993 9.0937C20.6395 8.29684 20.0972 7.53968 19.2838 7.39924C18.4703 7.26185 17.6974 7.79309 17.554 8.58994C17.4138 9.38679 17.9592 10.144 18.7695 10.2844C19.156 10.3516 19.5362 10.263 19.8416 10.0676L25.4516 14.4976L26.1841 14.0733ZM26.1841 14.0733L25.2771 19.7672C25.5825 19.9474 25.7602 20.2954 25.6947 20.6587C25.6324 21.0007 25.3737 21.2602 25.0496 21.3457L25.4828 21.4189L24.6849 30.5385L21.4997 29.992L23.8933 21.1442L24.3265 21.2174C24.0523 21.0312 23.8964 20.6984 23.9556 20.3565C24.018 20.0054 24.2891 19.7428 24.6226 19.6634L25.4548 14.4976L26.1841 14.0733ZM25.5825 19.8161L27.518 19.2757C27.5305 19.2574 27.5429 19.2391 27.5554 19.2207L28.3377 14.8182L26.4116 15.3525L25.5825 19.8161ZM7.73962 11.3072L6.9511 15.7555C9.86519 17.7888 12.7793 19.8222 15.6934 21.8586C16.2045 22.1456 16.7406 22.2005 17.2891 22.1303L23.644 20.3565L24.4356 15.9051L17.1769 17.9232L7.73962 11.3072ZM35.0198 11.5697L20.1814 1L3.10202 5.75058L2.98047 6.44363L17.42 16.5676L24.6849 14.5037L24.7223 14.2992L19.8011 10.5836C19.4552 10.7301 19.0749 10.7759 18.6978 10.7118C17.6444 10.5317 16.94 9.5486 17.1208 8.51972C17.3047 7.48778 18.3051 6.79779 19.3586 6.97792C20.412 7.15805 21.1164 8.13808 20.9325 9.17002C20.9231 9.22498 20.9107 9.27993 20.8951 9.33489L26.6734 13.9389L35.0198 11.5697Z" stroke="#B800CC" stroke-width="0.75" stroke-miterlimit="10"/>
   <path d="M18.6921 49C18.6878 49 18.6835 49 18.6792 49C11.9741 48.9958 6.29965 45.3849 4.22318 39.803C3.50102 37.5644 3.82031 35.3215 4.22746 33.418C5.61392 27.7561 8.99543 22.3724 14.0098 17.8318C14.357 17.5199 15.2441 16.7252 16.0049 16.0907L16.592 16.7715C15.842 17.3976 14.9656 18.1818 14.6227 18.4895C9.7433 22.9078 6.45394 28.1397 5.11248 33.6141C4.73319 35.3911 4.42889 37.4927 5.08034 39.5142C7.01967 44.7209 12.3598 48.102 18.6792 48.1062C18.6835 48.1062 18.6878 48.1062 18.6921 48.1062C24.9622 48.1062 30.2745 44.7335 32.2352 39.51C33.1524 36.3544 32.3788 32.4484 29.8673 27.5706C27.868 23.7468 24.2958 19.5477 20.5414 16.6113L21.1071 15.9115C25.0136 18.9659 28.5902 23.1734 30.6752 27.1637C33.3003 32.2608 34.0953 36.3839 33.1031 39.7714L33.0924 39.8009C31.0052 45.3912 25.3522 48.9979 18.6921 49Z" fill="#B800CC"/>
@@ -338,7 +338,7 @@ export default function Section3() {
           <div className="title font-bold text-2xl">EduInsure</div>
 
         </div>
-        <div className="paragraph mt-5 font-medium text-center">
+        <div className="paragraph mt-5 font-normal text-[16px] text-left">
         Parents can now start planning 
 for the prospective schools of their
 children.
@@ -346,8 +346,8 @@ children.
         </div>
       </div>
 
-      <div className={`content-row flex flex-col  md:w-[20%] mb-10  `}>
-        <div className="headline flex items-center justify-center space-x-3">
+      <div className={`content-row flex flex-col  md:w-[18%] mb-10  `}>
+        <div className="headline flex items-center text-left space-x-3">
         <svg xmlns="http://www.w3.org/2000/svg" width="42" height="45" viewBox="0 0 42 45" fill="none">
   <path d="M26.3718 9.23462H14.0581" stroke="#B800CC" stroke-width="0.75" stroke-miterlimit="10"/>
   <path d="M3.1123 4.35809H26.3688V9.23482H38.8419C40.9141 9.61375 41.2568 11.2036 41.201 13.0654V44.4181H38.292V42.0703C37.1523 41.2548 36.2038 41.1477 35.5104 42.0703V44.4181H31.8442V41.6749C30.6168 40.5546 29.4931 40.7111 28.4331 41.6749V44.4181H24.7669V41.5431C23.5474 40.7194 22.3599 40.637 21.2282 41.5431V44.4181H17.562V11.7556C16.7171 9.8856 13.832 8.49343 11.9989 9.53138C11.3374 9.82793 10.4925 11.0224 10.6121 12.2745L10.11 40.6205C7.23281 41.4608 4.73819 41.1065 3.1123 38.0092V4.35809Z" stroke="#B800CC" stroke-width="0.75" stroke-miterlimit="10"/>
@@ -374,7 +374,7 @@ children.
           <div className="title font-bold text-2xl">RMS</div>
 
         </div>
-        <div className="paragraph mt-5 font-medium text-center">
+        <div className="paragraph mt-5 font-normal text-[16px] text-left">
         Payskul helps schools to manage
 their revenue to eradicate
 inconsistencies and delays in
@@ -383,8 +383,8 @@ school fees payments.
         </div>
       </div>
 
-      <div className={`content-row flex flex-col  md:w-[20%] mb-10  `}>
-        <div className="headline flex items-center justify-center space-x-3">
+      <div className={`content-row flex flex-col  md:w-[18%] mb-10  `}>
+        <div className="headline flex items-center text-left space-x-3">
         <svg xmlns="http://www.w3.org/2000/svg" width="41" height="19" viewBox="0 0 41 19" fill="none">
   <path d="M31.775 4.03437e-05C29.315 4.03437e-05 26.9917 0.988885 25.3346 2.70171L13.325 13.7203C12.2317 14.8504 10.7796 15.4684 9.225 15.4684C6.03042 15.4684 3.41667 12.8021 3.41667 9.50002C3.41667 6.19798 6.03042 3.53163 9.225 3.53163C10.7796 3.53163 12.2317 4.14966 13.3933 5.3504L15.3238 7.1162L17.9375 4.75003L15.7508 2.79C14.8953 1.90238 13.8782 1.19881 12.7581 0.719939C11.6379 0.241065 10.4371 -0.0036143 9.225 4.03437e-05C4.13417 4.03437e-05 0 4.27327 0 9.50002C0 14.7268 4.13417 19 9.225 19C11.685 19 14.0083 18.0112 15.6654 16.2983L27.675 5.27977C28.7683 4.14966 30.2204 3.53163 31.775 3.53163C34.9696 3.53163 37.5833 6.19798 37.5833 9.50002C37.5833 12.8021 34.9696 15.4684 31.775 15.4684C30.2375 15.4684 28.7683 14.8504 27.6067 13.6496L25.625 11.8662L23.0625 14.2324L25.2492 16.21C26.107 17.0932 27.125 17.7927 28.2448 18.2684C29.3646 18.7442 30.5643 18.9868 31.775 18.9823C36.8658 18.9823 41 14.7268 41 9.50002C41 4.20263 36.8658 4.03437e-05 31.775 4.03437e-05Z" fill="#B800CC"/>
 </svg>
@@ -392,7 +392,7 @@ school fees payments.
           <div className="title font-bold text-2xl">Custom Features</div>
 
         </div>
-        <div className="paragraph mt-5 font-medium text-center">
+        <div className="paragraph mt-5 font-normal text-[16px] text-left">
         These features are tailored to
 meet respective school’s demand
 

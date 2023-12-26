@@ -40,28 +40,27 @@ const HamburgerMenu = () => {
       />
 
       <div
-        className={`${
-          isOpen ? "opacity-100 visible" : "opacity-0 invisible"
-        } menu-section bg-white w-2/3 mt-4 p-4 absolute h-[100vh] top-0 left-0 z-40 rounded-md shadow-md transition-opacity ease-in-out duration-300`}
+        className={`${isOpen ? "opacity-100 visible" : "opacity-0 invisible"
+          } menu-section bg-white w-[50%] h-full mt-4 p-4 fixed top-0 left-0 z-40 rounded-md shadow-md transition-opacity ease-in-out duration-300`}
       >
-        <ul className="list-none p-0 m-0">
-          <li className="text-xl mb-2">
+        <ul className="list-none p-0 m-0 pt-20">
+          <li className="text-xl mb-2 pb-10">
             <Link>Home</Link>
           </li>
-          <li className="text-xl mb-2">
+          <li className="text-xl mb-2 pb-10">
             {" "}
             <Link>Product</Link>
           </li>
-          <li className="text-xl mb-2">
+          <li className="text-xl mb-2 pb-10">
             <Link>Features</Link>
           </li>
-          <li className="text-xl mb-2">
+          <li className="text-xl mb-2 pb-10">
             <Link>Loans</Link>
           </li>
-          <li className="text-xl mb-2">
+          <li className="text-xl mb-2 pb-10">
             <Link>About</Link>
           </li>
-          <li className="text-xl mb-2">
+          <li className="text-xl mb-2 pb-10">
             <Link>Contact</Link>
           </li>
         </ul>
